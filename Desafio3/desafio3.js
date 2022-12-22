@@ -32,3 +32,10 @@ var especializacaoOuFullstack = prompt ('Digite 1 para seguir se especializando 
 else {
     alert('Você não inseriu um dado válido!')
 }
+
+let msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
+while (msg === "ok"){
+    let novaTecnologia = prompt("Qual?");
+    alert(`${novaTecnologia} é realmente uma tecnologia muito legal!`)
+    msg = prompt("Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo.");
+}
