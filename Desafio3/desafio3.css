@@ -1,16 +1,16 @@
 header {
-    background: linear-gradient(#ff0180, #ffb3d9);
+    background: linear-gradient(#000000, #ffffff);
     height: 200px;
 }
 
 .estilo-titulo {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: rgb(9, 126, 194);
     text-align: center;
     padding: 80px;
 }
 
 body{
-    background: #ffb3d9;
+    background: #ffffff;
 }
